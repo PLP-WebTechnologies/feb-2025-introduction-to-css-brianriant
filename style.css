@@ -1,0 +1,74 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+/* Body styles - element selector */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styles - ID selector */
+#main-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Subtitle styles - class selector */
+.subtitle {
+    color: #ecf0f1;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* Section styles - class selector */
+.intro-section {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+/* Image styles - class selector */
+.featured-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+    border: 5px solid #2c3e50;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Features section styles */
+.features {
+    background-color: white;
+    padding: 2rem;
+    border-left: 4px solid #2c3e50;
+}
+
+/* List styles - element selector */
+ul {
+    list-style-position: inside;
+    padding-left: 1rem;
+}
+
+li {
+    margin: 0.5rem 0;
+    color: #2c3e50;
+}
+
+/* Heading styles - element selector */
+h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+}
